@@ -1,0 +1,1 @@
+I am a designer and programmer who is obsessed with clean and intuitive experiences. I believe that good design should both create a narrative and get out of the way, allowing the user to experience what is truly important. 
