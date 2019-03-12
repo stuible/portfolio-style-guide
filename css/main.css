@@ -20,14 +20,13 @@ body {
 }
 
 .body-style {
-    border-radius: 5px;
-    max-width: 650px;
-    background-color: var(--colour-dark);
+    padding: 2rem;
+    background-color: var(--colour-light);
     color: var(--colour-darker);
-    padding: 1em;
 }
 
 section {
+    padding: 2em;
     margin-bottom: 25px;
     background-color: var(--colour-light);
     border: solid 1px var(--colour-light);
@@ -42,21 +41,13 @@ section section {
     margin-bottom: 0px;
     background-color: var(--colour-light);
     border-radius: 0px;
-    padding: 2em;
+    padding: 2em 0;
 }
 
 h1 {
     font-size: 24px;
     text-transform: uppercase;
     text-align: center;
-}
-
-h1::before {
-    content: "- ";
-}
-
-h1::after {
-    content: " -";
 }
 
 h2 {
@@ -138,8 +129,8 @@ code {
 nav {
     padding: 1em 0;
     text-align: center;
-    border-radius: 5px;
-    border: 1px solid var(--colour-medium);
+    border-top: 1px solid var(--colour-medium);
+    font-family: 'bonvenocflight';
     margin-bottom: 30px;
 }
 
@@ -315,6 +306,7 @@ input[type=radio] {
     letter-spacing: 2px;
     text-align: center;
     margin-bottom: 25px;
+    font-family: 'bonvenocflight';
 }
 
 .type-demo {
