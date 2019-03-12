@@ -1,0 +1,309 @@
+/*Bonzai required styles*/
+#suiteBarLeft {
+	background-color: #0a3f50;
+}
+
+#siteIcon {
+   background-color: teal;
+}
+
+.ms-core-brandingText {
+	-webkit-font-smoothing: antialiased;
+	font-size:13px;
+}
+
+/*My Styles*/
+.ms-webpartzone-cell {
+	margin-bottom: 5px;
+}
+
+#suiteLinksBox {
+	display: none;
+}
+
+a[id$=site_share_button], a[id$=SyncPromotedAction], a#site_follow_button { 
+	display: none !important; 
+}
+
+#ms-help {
+	display: none !important;
+}
+
+.ms-core-brandingText, .ms-cui-topBar1 {
+	display: none !important;
+}
+
+#suiteBarLeft, #suiteBarRight, .ms-cui-topBar2 {
+	/*display: none !important;*/
+	background-color: #FFF;
+}
+
+.ms-cui-topBar2 {
+	/*margin-top: -25px;*/
+}
+
+.ms-cui-tabBody {
+	background-color: #EEE;
+}
+
+.ms-cui-tt-s > .ms-cui-tt-a, .ms-cui-tt-a:hover, .ms-cui-tt-s > .ms-cui-tt-a:hover {
+	background-color: #EEE;
+}
+
+nav.bz-top-bar .bz-navigation .bz-dropdown {
+	background-color: #F0F4F9 !important;
+}
+
+.ms-rteTable-2 tr.ms-rteTableHeaderRow-2, .ms-rteTable-2 tr.ms-rteTableFooterRow-2, .ms-rteTable-2 tr.ms-rteTableHeaderRow-2 > th, .ms-rteTable-2 tr.ms-rteTableFooterRow-2 > th, .ms-rteTable-2 tr.ms-rteTableFooterRow-2 > td {
+	background-color: #009AC3; 
+}
+
+.ms-rte-wpbox a, .ms-rte-wpbox a:link, .ms-rte-wpbox a:visited, .bz-data.bz-glyphicon-links a {
+	color:#2c7ba9 !important;
+}
+
+/* Hide "Open in new tab" option from users */
+span#Ribbon.Link.Link.Behavior.PopUp-Medium {
+	display:none;
+}
+
+/* APP BUTTONS 
+.appButton {
+	height: 30px;
+	float: left;
+	width: 100%;
+}
+
+.appMini {
+	border-radius: 3px;
+	cursor: pointer;
+	float: left;
+	margin-bottom: 5px;
+	padding: 1px 5px;
+	transition: all 0.5s ease;
+	width: 85%;
+}
+
+.appJumbo {
+	border-radius: 3px;
+	cursor: pointer;
+	float: left;
+	margin-bottom: 5px;
+	padding: 1px 5px;
+	transition: all 0.5s ease;
+	width: 100%;
+}
+
+.appHelp {
+	border-radius: 50px;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	height: 25px;
+	line-height: 23px;
+	margin-top: 10px; 
+	text-align: center;
+	width: 25px;
+}
+
+.appMini:hover, .appJumbo:hover, .appHelp:hover {
+	background-image: -webkit-linear-gradient(top,transparent,rgba(0,0,0,0.2));
+	background-image: -moz-linear-gradient(top,transparent,rgba(0,0,0,0.2));
+	background-image: -ms-linear-gradient(top,transparent,rgba(0,0,0,0.2));
+	background-image: -o-linear-gradient(top,transparent,rgba(0,0,0,0.2));
+	background-image: linear-gradient(top,transparent,rgba(0,0,0,0.2));	
+}
+
+.appMini img, .appJumbo img {
+	float: right;
+	width: 45px;
+}
+
+.appButton p.appNamed {
+	color: white;
+	text-align: center;
+	float: left;
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 13px;
+}
+
+.clearFix {
+	clear: both;
+}
+*/
+/* METRICS/KPIs 
+.FHMetric-iframe {
+	height: 60px;
+	/*width: 192px; 
+	display: inline-block;
+	background-color: lightgrey;
+}
+*/
+.desktopPopup li {
+	margin-bottom: 20px;
+}
+
+.desktopPopup img {
+	width: 90%;
+}
+
+@media (min-device-width: 1050px) { 
+	.reportWrapper {
+		display: inline-block;
+		position: relative;
+	}
+}
+
+@media (max-device-width: 1049px) { 
+	.reportWrapper {
+		display: block;
+		position: relative;
+	}
+}
+
+.reportHelp {
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+	color: white;
+	cursor: pointer;
+	font-size: 10px;
+	font-style: italic;
+	height: 13px;
+	line-height: 13px;
+	position: absolute;
+	right: 3px;
+	text-align: center;
+	top: 3px;
+	width: 13px;
+	/*REMOVE BELOW THIS THIS FOR PRODUCTION*/
+	/*background-color: lightgrey;*/
+}
+
+p.fhReportsLabel {
+	color: #9a9691;
+	margin-bottom: 0px;
+}
+
+iframe.FHReportsIframe {
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	width:1093px;
+	height: 600px;
+	position: relative;
+	top: -27px; 
+	-ms-zoom: 0.95;
+	-moz-transform: scale(0.95);
+	-moz-transform-origin: 0 0;
+	-o-transform: scale(0.95);
+	-o-transform-origin: 0 0;
+	-webkit-transform: scale(0.95);
+	-webkit-transform-origin: 0 0;
+}
+
+.bz-row {
+	    max-width: 75rem !important;
+
+}
+
+/* Contact Layout Fixes 
+.FHContact {
+	max-width: 60px;
+	max-height: 60px;
+	border-radius: 45px;
+	border: 3px solid #e9e9e9;
+}
+.webpart-container .accordion-container a.tab-title-element {
+	font-size:17px !important;
+	color: #2c7ba9 !important;
+}
+*/
+body {
+	background-color: transparent !important;
+}
+
+
+/*Hide extra white space at top*/
+#suiteBar {
+	height: 30px !important;
+	display: block !important;
+	margin-right: auto !important;
+	width: 50px !important;
+	position: fixed !important;
+	right: 5px !important;
+	z-index: 12 !important;
+}
+
+#RibbonContainer-TabRowRight {
+	margin-right: 50px;
+}
+
+.ms-cui-tabContainer {
+	z-index: 5 !important;
+}
+
+.bz-header-logo {
+	display: none !important;
+}
+
+.bz-header-menu {
+	display: none !important;
+}
+
+header {
+	border-bottom: none !important;
+	margin-bottom: 5px !important;
+}
+
+nav.bz-breadcrumb span.bz-current-node {
+	background-color:  #FF6600 !important;
+	border-color:  #FF6600 !important;
+}
+
+#DeltaPlaceHolderMain {
+    background: transparent !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 960px) {
+	#suiteBar {
+		height: 30px !important;
+		display: block !important;
+		margin-right: auto !important;
+		width: 50px !important;
+		position: fixed !important;
+		left: 40px !important;
+		z-index: 12 !important;
+	}
+}
+/*END OF Hide extra white space at top*/
+
+
+/*Trying to fix Jump
+#DeltaWebPartAdderUpdatePanelContainer {
+
+         top: 35px !important;
+
+    }
+
+
+/* Fix Jump Issue*/
+#s4-workspace {
+	position: absolute !important;
+	width: 100% !important;
+	top: 35px !important;
+}
+
+#s4-ribbonrow {
+	z-index: 11;
+}
+
+/*
+#suiteBar {
+	z-index: 12 !important;
+}
+*/
